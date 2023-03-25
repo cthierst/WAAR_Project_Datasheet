@@ -254,7 +254,7 @@ bibliography: references.bib
 
 ## Acknowledgements
 
-This datasheet was created using R [@citeR].
+This datasheet utilizes the R statistical programming language [@citeR].
 
 \newpage
 
