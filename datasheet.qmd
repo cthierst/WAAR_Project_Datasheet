@@ -166,7 +166,7 @@ bibliography: references.bib
 
 1.  *Has the dataset been used for any tasks already? If so, please provide a description.*
 
-    -   Yes, it has been used in the data release paper, <https://doi.org/10.1177/00223433221128340>
+    -   Yes, it has been used in the [data release paper](https://doi.org/10.1177/00223433221128340).
 
 2.  *Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.*
 
