@@ -91,7 +91,7 @@ bibliography: references.bib
 
 15. *Does the dataset contain data that might be considered sensitive in any way (for example, data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.*
 
-    -   The dataset contains sensititve information such as affiliation with armed rebellion groups, however, no individual information of members is included.
+    -   The dataset contains sensitive information such as affiliation with armed rebellion groups, however, no individual information of members is i
 
 16. *Any other comments?*
 
