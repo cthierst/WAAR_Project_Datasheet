@@ -269,7 +269,7 @@ bibliography: references.bib
 
 # Acknowledgements
 
-I would like to extend a special thanks to Sebastian Rodriguez for providing feedback and edits to this datasheet.
+I would like to extend a special thanks to Sebastian Rodriguez ([\@seb646](https://github.com/seb646))for providing feedback and edits to this datasheet.
 
 \newpage
 
