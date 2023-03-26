@@ -2,11 +2,12 @@
 title: "Datasheet for the Women’s Activities in Armed Rebellion (WAAR) Project Dataset"
 author: 
   - Chloe Thierstein
-thanks: "Code is available at: https://github.com/cthierst/WAAR_Project_Datasheet.git and dataset is available at: https://www.waarproject.com/" 
+thanks: "Code is available at: https://github.com/cthierst/WAAR_Project_Datasheet.git and the dataset is available at: https://www.waarproject.com/dataset" 
 date: "March 24, 2023"
 date-format: "D MMMM YYYY"
 format: pdf
-number-sections: TRUE
+abstract: "Datasheet for the Women's Activities in Armed Rebellion (WAAR) Project dataset [@citewaar] created using the R statistical programming language [@citeR]. Information comes from @citewaar's paper and @citewaarweb's website. The questions utilized within this datasheet come from @citegebru."
+toc: TRUE
 bibliography: references.bib
 ---
 
@@ -14,7 +15,7 @@ bibliography: references.bib
 
 1.  *For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.*
 
-    -   The dataset was created to enable analysis of women's participation in rebel organizations. This includes the presences and prevalence measures across combat, non-combat and leadership roles along with disaggregated measure of participation types [@citewaarweb].
+    -   The dataset was created to enable analysis of women's participation in rebel organizations. This includes the presences and prevalence measures across combat, non-combat and leadership roles along with disaggregated measure of participation types.
 
 2.  *Who created the dataset (for example, which team, research group) and on behalf of which entity (for example, company, institution, organization)?*
 
@@ -22,11 +23,13 @@ bibliography: references.bib
 
 3.  *Who funded the creation of the dataset? If there is an associated grant, please provide the name of the grantor and the grant name and number.*
 
-    -   Funding received from the United States Institute of Peace's Peace Scholar Fellowship Program 2020-2021 and the American Political Science Association Women, Gender and Politics Research Section [@citewaar].
+    -   Funding was received from the United States Institute of Peace's Peace Scholar Fellowship Program 2020-2021 in the amount of \$20,000, and the American Political Science Association Women, Gender and Politics Research Section in the amount of \$1,000.
 
 4.  *Any other comments?*
 
     -   No.
+
+\newpage
 
 # **Composition**
 
@@ -88,11 +91,13 @@ bibliography: references.bib
 
 15. *Does the dataset contain data that might be considered sensitive in any way (for example, data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.*
 
-    -   The dataset contains sensititve information such as affiliation with armed rebellion groups, however, no individual information of members is included [@citewaar].
+    -   The dataset contains sensititve information such as affiliation with armed rebellion groups, however, no individual information of members is included.
 
 16. *Any other comments?*
 
     -   No.
+
+\newpage
 
 # **Collection process**
 
@@ -114,15 +119,15 @@ bibliography: references.bib
 
 5.  *Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (for example, recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.*
 
-    -   The time frame of data collection is unknown, however the data is from 1946-2015 [@citewaar].
+    -   The project began in 2021 although data was collected from 1946-2015.
 
 6.  *Were any ethical review processes conducted (for example, by an institutional review board)? If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.*
 
-    -   No ethical review processes were conducted as data was collected from existing information [@citewaar].
+    -   Although there was no formal ethical review process, due to the nature of the data collection, "desk research" does come with specific ethical benefits. These benefits resulted in a less precise data as it only demonstrates women's participation that is visible in available sources and not on any of the lived experiences expressed by these women.
 
 7.  *Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (for example, websites)?*
 
-    -   Data was collected from third parties and other sources [@citewaar].
+    -   Data was collected from third parties and other sources.
 
 8.  *Were the individuals in question notified about the data collection? If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.*
 
@@ -144,11 +149,13 @@ bibliography: references.bib
 
     -   No.
 
+\newpage
+
 # **Preprocessing/cleaning/labeling**
 
 1.  *Was any preprocessing/cleaning/labeling of the data done (for example, discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.*
 
-    -   Yes, cleaning was performed such as merging data [@citewaar].
+    -   Yes, cleaning was performed such as merging data.
 
 2.  *Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (for example, to support unanticipated future uses)? If so, please provide a link or other access point to the "raw" data.*
 
@@ -162,7 +169,9 @@ bibliography: references.bib
 
     -   No
 
-**Uses**
+\newpage
+
+# **Uses**
 
 1.  *Has the dataset been used for any tasks already? If so, please provide a description.*
 
@@ -187,6 +196,8 @@ bibliography: references.bib
 6.  *Any other comments?*
 
     -   No.
+
+\newpage
 
 # **Distribution**
 
@@ -217,6 +228,8 @@ bibliography: references.bib
 7.  *Any other comments?*
 
     -   No.
+
+\newpage
 
 # **Maintenance**
 
@@ -252,9 +265,11 @@ bibliography: references.bib
 
     -   No
 
+\newpage
+
 # Acknowledgements
 
-This datasheet utilizes the R statistical programming language [@citeR].
+I would like to extend a special thanks to Sebastian Rodriguez for providing feedback and edits to this datasheet.
 
 \newpage
 
